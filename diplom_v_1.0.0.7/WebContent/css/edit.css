@@ -1,0 +1,84 @@
+.main-data{
+	background-color: #ffb84d;
+}
+.user-info{
+	background-color: #ffad33;
+	margin-top: 10px;
+	margin-bottom: 10px;  
+}
+.temperature-options{
+	background-color: #ffa31a;
+}
+
+.user-edit{
+	display: inline-block;
+	min-width: 340px;
+	width: 30%;
+	vertical-align: top; 
+	
+}
+.houses{
+	display: inline-block;
+	min-width: 340px;
+	width: 30%;
+	vertical-align: top; 
+}
+
+.sensors{
+	display: inline-block;
+	min-width: 340px;
+	width: 30%;
+	vertical-align: top; 
+}
+
+#room{
+	border: 1px solid;
+	width: 100%;
+	height: 300px;
+}
+
+#map{
+	width: 100%;
+	height: 300px;
+}
+
+
+.main-data, .user-info, .temperature-options{
+	padding: 10px;
+	
+}
+
+.titles, .forms{
+	display: inline-block;
+	text-align: left;
+}
+
+.titles div{
+	padding: 5px;
+}
+
+.forms input{
+	padding: 5px;
+}
+#edit, #add_sensor, #add_house {
+    width: 300px;
+    background-color: #0f4557;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    display: inline-block;
+}
+
+#edit:hover, #add_sensor:hover, #add_house:hover {
+    background-color: #07232c;
+  	display: inline-block;
+}
+
+
+
+
+
+
+
+

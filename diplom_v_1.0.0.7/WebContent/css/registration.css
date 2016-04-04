@@ -1,0 +1,44 @@
+.main-data{
+	background-color: #ffb84d;
+}
+.user-info{
+	background-color: #ffad33;
+	margin-top: 10px;
+	margin-bottom: 10px;  
+}
+.temperature-options{
+	background-color: #ffa31a;
+}
+
+.main-data, .user-info, .temperature-options{
+	padding: 10px;
+	text-align: center;
+}
+
+.titles, .forms{
+	display: inline-block;
+	text-align: left;
+}
+
+.titles div{
+	padding: 5px;
+}
+
+.forms input{
+	padding: 5px;
+}
+#registration {
+    width: 300px;
+    background-color: #0f4557;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    display: inline-block;
+}
+
+#registration:hover {
+    background-color: #07232c;
+  	display: inline-block;
+}
+
